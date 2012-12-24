@@ -1,0 +1,46 @@
+
+syntax: glob
+*.class
+*~
+CVS
+unpack
+*.diff
+.cvsignore
+doc
+target
+.manager
+*.DS_Store
+
+# Eclipse config files
+.project
+.classpath
+.settings
+.distfiles
+
+# Idea config files
+.idea
+*.iml
+Perceptron.iws
+.ensime
+
+## ensime lucene index
+.ensime_lucene
+
+## hgignore-sbt
+lib_managed/
+src_managed/
+target/
+project/boot/
+project/build/target/
+project/plugins/target/
+project/plugins/lib_managed/
+project/plugins/src_managed/
+
+
+
+user/belanger/NERPOS/models/*
+*.ipr
+*.iws
+#*.scala
+*.orig
+.hgignore
